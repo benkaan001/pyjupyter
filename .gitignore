@@ -1,4 +1,5 @@
 .env
 .DS_Store
-2022_stackoverflow_survey/path.py
+__pycache__/
+
 
