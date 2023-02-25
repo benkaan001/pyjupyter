@@ -1,1 +1,0 @@
-survey_path = "/Users/benkaan/Desktop/survey_results_public.csv"
