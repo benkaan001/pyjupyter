@@ -1,2 +1,0 @@
-ERROR:root:Failed to insert records into employees table. 1292 (22007): Incorrect datetime value: 'NOW()' for column 'created_at' at row 1
-INFO:root:5 records inserted successfully into the employees table.
