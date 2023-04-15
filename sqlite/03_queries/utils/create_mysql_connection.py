@@ -2,7 +2,7 @@ import mysql.connector
 from mysql.connector import errorcode
 from IPython.core.magic import register_line_magic
 from IPython import get_ipython
-from config import MYSQL_CONFIG
+from utils.config import MYSQL_CONFIG
 from sqlalchemy import create_engine
 
 @register_line_magic
