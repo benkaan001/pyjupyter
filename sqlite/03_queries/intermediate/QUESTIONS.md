@@ -20,18 +20,19 @@
    | Jennifer Peterson   | 38.62     |
 
 
-## 2.Write a query to retrieve all customers who live in the USA and have made a purchase in the last 30 days.
+## 2.Write a query to retrieve top 5 customers who live in the USA and have spent the most in year 2013.
 
-- ### Hint: You will need to join the `customers` and `invoices` tables and use the DATE and WHERE clauses to filter for customers who live in the USA and have made a purchase in the last 30 days.
+- ### Hint: You will need to join the `customers` and `invoices` tables and use WHERE clauses to filter for customers who live in the USA.
 
 ## Expected Output
 
-   |FirstName	| LastName |	Country | 	InvoiceDate |
-   |-----------|----------|-----------|---------------|
-   |   Jane	   |  Peacock |  USA	     |   2023-03-29  |
-   |   Mark	   |  Philips |	USA	  |   2023-03-26  |
-   | John	   |  Gordon  |   USA	  |   2023-03-22  |
-   | Michelle	| Brooks	  |   USA	  |   2023-03-15  |
+   | FirstName | LastName    | Country | TotalSpent |
+   |-----------|-------------|---------|------------|
+   | Richard   | Cunningham | USA     | 48.0       |
+   | Julia     | Barnett     | USA     | 44.0       |
+   | Frank     | Ralston     | USA     | 44.0       |
+   | Victor    | Stevens     | USA     | 43.0       |
+   | Dan       | Miller      | USA     | 40.0       |
 
 
 ## 3. Write a query to retrieve the top 5 best-selling artists by the number of tracks sold.
@@ -46,7 +47,7 @@
    | U2                   | 107        |
    | Metallica            | 91         |
    | Led Zeppelin         | 87         |
-   | Deep Purple          | 85         |
+   | Os Paralamas Do Sucesso| 45       |
 
 
 
@@ -57,31 +58,25 @@
 ## Expected Output
 
    | Year | Revenue |
-   -------|-----------
-   | 2010 | 234.15  |
-   | 2011 | 246.27 |
-   | 2012 | 350.52 |
-   | 2013 | 229.24 |
-   | 2014 | 422.96 |
-   | 2015 | 376.20 |
-   | 2016 | 366.30 |
-   | 2017 | 353.46 |
-   | 2018 | 308.73 |
-   | 2019 | 114.84 |
+   -------|---------|
+   | 2009 | 449.46  |
+   | 2010 | 481.45 |
+   | 2011 | 469.58|
+   | 2012 | 477.53|
+   | 2013 | 450.58| |
    -----------------
 
 
-## 5.Write a query to retrieve the name of the employee who has sold the most in the year 2013.
+## 5. Write a query to retrieve the name of the employee who has generated the highest sales revenue in the year 2013.
 
-- ### Hint: You will need to join the `employees`, `customers`, `invoices`, and `invoice_items` tables and use the WHERE and GROUP BY clauses to filter for sales made in the year 2013 and aggregate the total sales made by each employee.
+- ### Hint: Revenue = SUM(invoice_item.Quantity * invoice_item.UnitPrice). <br>You will need to join the `employees`, `customers`, `invoices`, and `invoice_items` tables and use the WHERE and GROUP BY clauses to filter for sales made in the year 2013 and aggregate the total sales made by each employee.
 
 ## Expected Output
 
 
-   | Employee With Most Sales |
-   |------------------------  |
-   | Jane Peacock            |
-   |                         |
+   | TopSalesPerson         | TotalRevenue |
+   |------------------------|--------------|
+   | Margaret Park          | 168.3        |
 
 
 
