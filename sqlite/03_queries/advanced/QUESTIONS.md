@@ -212,6 +212,33 @@
 
 (Hint: use a subquery with a NOT IN clause)
 
+| GenreName          |   GenreRevenue |
+|:-------------------|---------------:|
+| Rock               |           7721 |
+| Latin              |           3473 |
+| Metal              |           2094 |
+| Alternative & Punk |           1948 |
+| TV Shows           |            818 |
+| Jazz               |            747 |
+| Drama              |            545 |
+| Blues              |            430 |
+| R&B/Soul           |            339 |
+| Reggae             |            333 |
+| Classical          |            318 |
+| Soundtrack         |            243 |
+| Pop                |            240 |
+| Alternative        |            212 |
+| Sci Fi & Fantasy   |            199 |
+| World              |            183 |
+| Heavy Metal        |            162 |
+| Electronica/Dance  |            150 |
+| Easy Listening     |            139 |
+| Hip Hop/Rap        |            136 |
+| Comedy             |            113 |
+| Science Fiction    |            103 |
+| Bossa Nova         |             87 |
+| Rock And Roll      |             84 |
+
 
 
 ## Question 7
