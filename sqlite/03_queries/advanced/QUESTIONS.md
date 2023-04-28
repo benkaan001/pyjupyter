@@ -241,10 +241,4 @@
 
 
 
-## Question 7
-`Write a query to retrieve the name of the customer who has made the largest percentage increase in purchases compared to the previous year.`
-
-(Hint: use a self-join and the LAG() window function)
-
-
 
