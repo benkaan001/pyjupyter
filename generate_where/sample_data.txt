@@ -1,0 +1,6 @@
+Name,Age,City,Temp
+Alice,30,Austin,90.2
+Bob,25,Dallas,91.9
+Carol,35,Houston,93.5
+David,40,San Jose,75
+Eve,28,Austin,90.2
