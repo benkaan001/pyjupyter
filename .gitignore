@@ -4,5 +4,5 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 python/closure/closures.md
-
+/automate_foreign_table_ddl/
 
